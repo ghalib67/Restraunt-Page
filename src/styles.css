@@ -119,7 +119,7 @@ header{
 
 .menu .title{
     background-color: yellow;
-    width: 55% ;
+    width: 25% ;
     margin-left: auto;
     margin-right: auto;
     font-size: 40px;
@@ -130,4 +130,21 @@ header{
 .menu img{
     width: 150px;
     height: 150px;
+    display: block;
+    margin-left: auto;
+}
+
+.menu div{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    padding: 25px;
+}
+.menu div *{
+    margin-bottom: 8px;
+}
+.menu div p:nth-child(1), p:nth-child(3){
+    font-weight: bold;
+    font-size: 20px;
 }
