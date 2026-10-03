@@ -92,3 +92,42 @@ header{
     background-color: yellow;
     padding: 25px; 
 }
+
+.menu{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 24px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.menu .title:nth-child(1){
+    margin-top: 15px;
+    background-color: yellow;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu .title{
+    background-color: yellow;
+    width: 55% ;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu img{
+    width: 150px;
+    height: 150px;
+}
