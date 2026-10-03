@@ -1,7 +1,8 @@
 import "./styles.css";
 import LoadHomepage from "./homepage";
+import loadMenu from "./menu";
 
 const content = document.querySelector("#content")
-LoadHomepage(content)
+
 
 console.log("HEELO")
