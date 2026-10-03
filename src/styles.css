@@ -148,3 +148,40 @@ header{
     font-weight: bold;
     font-size: 20px;
 }
+
+.contact-us{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 24px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.contact-us .title{
+    margin-top: 15px;
+    background-color: yellow;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-us div p:nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.contact-us div{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    padding: 25px;
+}

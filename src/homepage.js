@@ -65,7 +65,7 @@ function LoadHomepage(container){
     credits.classList.add("credits")
 
     container.appendChild(page)
-    container.appendChild(credits)
+    //container.appendChild(credits)
 }
 
 export default LoadHomepage
